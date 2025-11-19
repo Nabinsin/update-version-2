@@ -10,8 +10,8 @@ const baseApiUrl = async () => {
 const config = {
  name: "autodl",
  version: "3.0",
- author: "xnil",
- credits: "Dipto & xnil6x",
+ author: "Ayanokoji",
+ credits: "Dipto & ayanokoji",
  description: "Auto download videos/images from TikTok, YouTube, FB, IG and more.",
  category: "media",
  commandCategory: "media",
@@ -84,7 +84,7 @@ const onChat = async ({ api, event }) => {
 ┃ ⚡ Speed: ${duration}s
 ┃ 🔗 Link: ${shortUrl}
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
-Enjoy your ${mediaLabel.toLowerCase()}! Made with ❤️ by xnil.
+Enjoy your ${mediaLabel.toLowerCase()}! Made with ❤️ by Nabin.
 `;
 
  await api.sendMessage(
