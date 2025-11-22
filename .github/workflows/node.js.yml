@@ -17,11 +17,11 @@ jobs:
 
     steps:
     # Step to check out the repository code
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v6
 
     # Step to set up the specified Node.js version
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v6
       with:
         node-version: ${{ matrix.node-version }}
 
