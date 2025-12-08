@@ -39,12 +39,12 @@ config: {
 
     const response = `
 Owner Information:🧾
-Name: 'Nabin singjali'
-Gender: 'male'
-Age: '18+'
-Height: '5'5'
-Facebook: 'https://www.facebook.com/nabin.mgrx.237081'
-Country: 'Nepal'
+Name: $'Nabin singjali'
+Gender: $'male'
+Age: $'18+'
+Height: $'5'5'
+Facebook: $'https://www.facebook.com/nabin.mgrx.237081'
+Country: $'Nepal'
 `;
 
 
